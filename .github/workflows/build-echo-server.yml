@@ -12,7 +12,7 @@ defaults:
 env:
   IMAGE_REGISTRY: docker.io
   IMAGE_NAME: ${{ github.event.repository.name }}-echo-server
-  REGISTRY_USERNAME: mgriffin@misoenergy.org
+  REGISTRY_USERNAME: mgriffin011
 
 jobs:
   build:
